@@ -1,0 +1,38 @@
+RGNODES™ Discord emoji names
+
+Verified on Emoji.gg current listings:
+- StatusOnline  (animated GIF)
+- StatusOffline (animated GIF)
+- WiFi_Online
+- WiFi_Offline
+- WiFi_Maintenance
+- Loading
+
+Use StatusOnline/StatusOffline as the default animated status indicators.
+The WiFi_* names are valid Emoji.gg names; their current listing format may be PNG rather than animated.
+
+Upload your own animated RGNODES™ emojis to the Discord server using these names:
+rgnodes_vps
+rgnodes_deploy
+rgnodes_rocket
+rgnodes_server
+rgnodes_cpu
+rgnodes_ram
+rgnodes_disk
+rgnodes_network
+rgnodes_docker
+rgnodes_ssh
+rgnodes_sshx
+rgnodes_pinggy
+rgnodes_ports
+rgnodes_password
+rgnodes_reinstall
+rgnodes_renew
+rgnodes_start
+rgnodes_stop
+rgnodes_stats
+rgnodes_refresh
+rgnodes_delete
+rgnodes_success
+rgnodes_warning
+rgnodes_error

@@ -1,0 +1,22 @@
+[Unit]
+Description=RGNODES™ VPS Bot - PM2 Runtime
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/rgnodes-vps-bot
+Environment=HOME=/root
+Environment=PM2_HOME=/root/.pm2
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/local/bin/pm2-runtime /root/rgnodes-vps-bot/ecosystem.config.js
+Restart=always
+RestartSec=5
+KillMode=mixed
+TimeoutStopSec=30
+LimitNOFILE=65535
+TasksMax=infinity
+
+[Install]
+WantedBy=multi-user.target
